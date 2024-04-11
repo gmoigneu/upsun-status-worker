@@ -1,0 +1,28 @@
+{
+    "id": "abcdefg123456",
+    "created_at": "2022-12-16T14:28:17.890467+00:00",
+    "updated_at": null,
+    "type": "environment.push",
+    "parameters": {},
+    "project": "abcdefgh1234567",
+    "environments": [
+        "feature"
+    ],
+    "state": "completed",
+    "result": "success",
+    "started_at": "2022-12-16T14:28:18.188888+00:00",
+    "completed_at": "2022-12-16T14:31:48.809068+00:00",
+    "completion_percent": 100,
+    "cancelled_at": null,
+    "timings": {
+        "wait": 0,
+        "build": 0.349,
+        "deploy": 209.986,
+        "execute": 210.508
+    },
+    "log": "Building application 'app' (runtime type: php:8.2, tree: 9851a01)\n  Reusing existing build for this tree ID\n\n...\nRedeploying environment test, as a clone of main\n  ...\n  Closing all services\n  Opening application app and its relationships\n  Executing deploy hook for application app\n ... Environment configuration\n    app (type: php:8.0, size: S, disk: 2048)\n\n  ...",
+    "payload": {},
+    "description": "<user data-id=\"abcdefghijk123456789\">Cloé Weber</user> synchronized <environment data-id=\"test\">test</environment>'s <strong>data</strong> from <environment data-id=\"main\">Main</environment>",
+    "text": "Cloé Weber synchronized test's **data** from Main",
+    "expires_at": "2023-12-16T14:28:17.890467+00:00"
+}
